@@ -1,0 +1,19 @@
+{
+  "name": "@kaushal/logseq-plugin",
+  "version": "1.1.0",
+  "description": "Universal Logseq plugin for AI coding tools — daily journaling, session logging, quick capture, and knowledge management",
+  "type": "module",
+  "bin": {
+    "logseq-plugin": "./bin/install.mjs"
+  },
+  "files": [
+    "CLAUDE.md",
+    "GEMINI.md",
+    "AGENTS.md",
+    "skills/",
+    "bin/"
+  ],
+  "keywords": ["logseq", "ai", "journaling", "knowledge-management", "claude", "gemini"],
+  "author": "Kaushal Kishor Mishra",
+  "license": "MIT"
+}
