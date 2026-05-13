@@ -15,5 +15,6 @@
     "knowledge-management",
     "daily-notes",
     "productivity"
-  ]
+  ],
+  "skills": "./skills/"
 }
