@@ -9,22 +9,6 @@ Save a piece of reference knowledge to `pages/knowledge-base/`.
 
 ---
 
-## Existing KB Pages
-
-```
-Authentication-Guide.md
-Component-Design-Patterns.md
-PBL-Module-Design.md
-Refine-Integration.md
-Routing-Guide.md
-State-Management-Guide.md
-Testing-Strategies.md
-Tangible-Backend-Architecture.md
-Tangible-Frontend-Architecture.md
-```
-
----
-
 ## Steps
 
 **0. Read graph root**
@@ -40,23 +24,13 @@ Everything after the trigger phrase is the knowledge to save.
 
 If nothing follows the trigger, ask: *"What do you want to add to the knowledge base?"*
 
-**2. Decide: existing page or new page?**
+**2. List existing KB pages**
 
-Read the existing KB pages list. Pick the best fit:
+```bash
+ls $GRAPH_ROOT/pages/knowledge-base/ 2>/dev/null
+```
 
-| Content type | Best page |
-|-------------|-----------|
-| Component patterns, props, rendering | `Component-Design-Patterns.md` |
-| State management, Zustand, stores | `State-Management-Guide.md` |
-| Routing, navigation, PrivateRoute | `Routing-Guide.md` |
-| Refine, useOne, useList, dataProvider | `Refine-Integration.md` |
-| Testing, Vitest, mocks, patterns | `Testing-Strategies.md` |
-| Auth, permissions, roles | `Authentication-Guide.md` |
-| PBL domain, course, skills, claims | `PBL-Module-Design.md` |
-| Backend, API, DB schema | `Tangible-Backend-Architecture.md` |
-| Frontend architecture, file structure | `Tangible-Frontend-Architecture.md` |
-
-If nothing fits well, create a new page named `Topic-Name.md` (PascalCase with dashes).
+Pick the best fit from the list. If nothing fits well, create a new page named `Topic-Name.md` (PascalCase with dashes).
 
 **3. Append to the chosen page**
 
