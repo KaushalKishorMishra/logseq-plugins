@@ -1,5 +1,5 @@
 {
-	"name": "@kaushal/logseq-plugin",
+	"name": "kaushal-logseq-plugin",
 	"description": "Universal Logseq plugin for AI coding tools — daily journaling, session logging, quick capture, and knowledge management",
 	"owner": {
 		"name": "Kaushal Kishor Mishra",
