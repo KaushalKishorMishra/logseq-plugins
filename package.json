@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Universal Logseq plugin for AI coding tools — daily journaling, session logging, quick capture, and knowledge management",
   "type": "module",
+  "main": ".opencode/plugins/logseq.js",
   "bin": {
     "logseq-plugin": "./bin/install.mjs"
   },
@@ -11,7 +12,8 @@
     "GEMINI.md",
     "AGENTS.md",
     "skills/",
-    "bin/"
+    "bin/",
+    ".opencode/"
   ],
   "keywords": ["logseq", "ai", "journaling", "knowledge-management", "claude", "gemini"],
   "author": "Kaushal Kishor Mishra",
