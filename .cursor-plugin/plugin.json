@@ -1,0 +1,21 @@
+{
+  "name": "logseq",
+  "displayName": "Logseq",
+  "description": "Universal Logseq plugin for AI coding tools — daily journaling, session logging, quick capture, and knowledge management",
+  "version": "1.1.0",
+  "author": {
+    "name": "Kaushal Kishor Mishra",
+    "email": "kaushalkmishra.dev@gmail.com"
+  },
+  "homepage": "https://github.com/KaushalKishorMishra/logseq-plugin",
+  "repository": "https://github.com/KaushalKishorMishra/logseq-plugin",
+  "license": "MIT",
+  "keywords": [
+    "logseq",
+    "journaling",
+    "knowledge-management",
+    "daily-notes",
+    "productivity"
+  ],
+  "skills": "./skills/"
+}
