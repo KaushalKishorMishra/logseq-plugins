@@ -42,12 +42,13 @@ If nothing follows the trigger, ask: *"What did you learn?"*
 
 ```bash
 date "+%Y_%m_%d"
+date "+%H:%M"
 ```
 
 In `$GRAPH_ROOT/journals/YYYY_MM_DD.md`, append:
 ```
 - ## Learnings
-	- [learning] #learning #[category-tag]
+	- `HH:MM` [learning] #learning #[category-tag]
 	  logged:: [[YYYY-MM-DD]]
 	  category:: [Category name]
 ```

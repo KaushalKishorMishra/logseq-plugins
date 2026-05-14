@@ -37,9 +37,10 @@ If there's nothing after the trigger, ask: *"What do you want to capture?"*
 
 **3. Append to today's journal under `## Notes`**
 
-Get date:
+Get date and time:
 ```bash
 date "+%Y_%m_%d"
+date "+%H:%M"
 ```
 
 Find `## Notes` in `$GRAPH_ROOT/journals/YYYY_MM_DD.md`. If missing, add it after `## Work Log`:
@@ -51,7 +52,7 @@ Find `## Notes` in `$GRAPH_ROOT/journals/YYYY_MM_DD.md`. If missing, add it afte
 Append:
 ```
 - ## Notes
-	- [content] #jot
+	- `HH:MM` [content] #jot
 	  logged:: [[YYYY-MM-DD]]
 ```
 

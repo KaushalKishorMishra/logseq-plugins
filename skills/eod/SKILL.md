@@ -18,9 +18,10 @@ grep '^graph_root=' ~/.logseq-plugin-config 2>/dev/null | cut -d= -f2
 If this returns empty, tell the user to run `/setup` and stop.
 Use the returned path as `$GRAPH_ROOT` for all file paths in this skill.
 
-**1. Get today's date**
+**1. Get today's date and time**
 ```bash
 date "+%Y_%m_%d"
+date "+%H:%M"
 ```
 
 **2. Pull today's commits**
@@ -49,6 +50,7 @@ If they say "see commits", use the git log from step 2.
 ```
 - ## Evening — "What good have I done today?"
   collapsed:: true
+  logged-at:: HH:MM
 	- **Shipped:**
 		- [item]
 		- [item]

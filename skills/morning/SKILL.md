@@ -18,10 +18,11 @@ grep '^graph_root=' ~/.logseq-plugin-config 2>/dev/null | cut -d= -f2
 If this returns empty, tell the user to run `/setup` and stop.
 Use the returned path as `$GRAPH_ROOT` for all file paths in this skill.
 
-**1. Get today's date**
+**1. Get today's date and time**
 ```bash
-date "+%Y_%m_%d"   # filename  →  2026_05_14
-date "+%A, %B %d %Y"            # display  →  Thursday, May 14 2026
+date "+%Y_%m_%d"        # filename  →  2026_05_14
+date "+%A, %B %d %Y"   # display   →  Thursday, May 14 2026
+date "+%H:%M"           # time      →  09:04
 ```
 
 **2. Create journal if it doesn't exist**
@@ -65,6 +66,7 @@ Wait for the response.
 ```
 - ## Morning — "What good shall I do this day?"
   collapsed:: true
+  logged-at:: HH:MM
 	- **Focus:** [their answer]
 	-
 	- **Priorities:**
